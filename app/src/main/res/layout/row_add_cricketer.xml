@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <EditText
+        android:id="@+id/edit_cricketer_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_grey"
+        android:layout_weight="1"
+        android:hint="Cricketer Name"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_grey">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_team"
+            android:layout_width="150dp"
+            android:layout_height="40dp"></androidx.appcompat.widget.AppCompatSpinner>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:tint="@color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_close"></ImageView>
+
+</LinearLayout>

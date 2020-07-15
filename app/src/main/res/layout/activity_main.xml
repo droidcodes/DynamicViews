@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cricketer List"
+            android:textSize="15sp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"></TextView>
+
+        <LinearLayout
+            android:id="@+id/layout_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/button_add"
+            android:background="@drawable/round_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableRight="@drawable/ic_add"
+            ></Button>
+
+        <Button
+            android:id="@+id/button_submit_list"
+            android:background="@drawable/round_primary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Submit List"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            ></Button>
+
+</LinearLayout>
